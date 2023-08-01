@@ -1,18 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <script src="scripts/script.js"></script>
+    <title>Página de Boxeo</title>
+    <!-- Enlaces a archivos de estilos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="modificar"><p id="editable">Hola</p>
-        <script>aggTextDiv();</script> 
-    </div>
-    <button onclick="aggLinea();">Nueva Linea</button>
-    <tbody id="tabla_modificar"></tbody>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Boxeo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exponentes.html">Exponentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="actualidad.html">Actualidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clasificaiones.html">Clasificaciones</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Formulario</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Secciones de la página -->
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Origen del Boxeo</h2>
+                        <p>
+                            El boxeo es un deporte de combate que se ha practicado a lo largo de la historia en diversas culturas alrededor del mundo. Sus orígenes se remontan a la antigüedad, donde se tienen registros de competiciones de boxeo en civilizaciones como la antigua Grecia y Roma.
+                        </p>
+                        <p>
+                            Se cree que el boxeo moderno tuvo su evolución en Inglaterra durante el siglo XVIII, donde se establecieron reglas básicas para el combate y se crearon los primeros clubes de boxeo. A medida que el deporte se popularizó, se introdujeron más reglas y se establecieron los límites de duración de los combates, así como la protección de los boxeadores.
+                        </p>
+                        <p>
+                            Hoy en día, el boxeo es uno de los deportes más seguidos y practicados en todo el mundo, con campeonatos profesionales y eventos que atraen a audiencias masivas.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="imagenes/boxeo_origen.png" alt="Origen del Boxeo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts de JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
+
+
+

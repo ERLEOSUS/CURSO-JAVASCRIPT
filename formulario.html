@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Boxeo</title>
+    <!-- Enlaces a archivos de estilos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Boxeo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exponentes.html">Exponentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="actualidad.html">Actualidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clasificaiones.html">Clasificaciones</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="formulario.html">Formulario</a>
+                    </li>
+                </ul>
+        </div>
+    </nav>
+    <!-- Secciones de la página -->
+    <main>
+        <section id="formulario">
+            <div class="container">
+                <h2>Comparte tu opinión</h2>
+                <form id="opinionForm">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="opinion" class="form-label">Opinión:</label>
+                        <textarea class="form-control" id="opinion" rows="4" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="tiktok" class="form-label">Enlace de TikTok:</label>
+                        <input type="url" class="form-control" id="tiktok" placeholder="https://www.tiktok.com/usuario" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="instagram" class="form-label">Enlace de Instagram:</label>
+                        <input type="url" class="form-control" id="instagram" placeholder="https://www.instagram.com/usuario" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <section id="opinionEnviada" style="display: none;">
+            <div class="container">
+                <h2>¡Opinión enviada!</h2>
+                <p>Gracias por compartir tu opinión.</p>
+                <p>Nombre: <span id="nombreMostrado"></span></p>
+                <p>Opinión: <span id="opinionMostrada"></span></p>
+                <p>Enlace de TikTok: <span id="tiktokMostrado"></span></p>
+                <p>Enlace de Instagram: <span id="instagramMostrado"></span></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts de JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

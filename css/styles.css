@@ -1,0 +1,113 @@
+body {
+    padding-top: 70px; 
+}
+img, png {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+.banner {
+    height: 300px;
+    background-image: url('ruta-de-la-imagen.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.form-control {
+    margin-bottom: 10px;
+}
+#inicio {
+    padding: 60px 0;
+}
+
+#inicio h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#inicio p {
+    margin-bottom: 20px;
+}
+#inicio .col-md-6 {
+    max-height: 400px; 
+    overflow: hidden;
+}
+#inicio img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+#exponentes {
+    padding: 60px 0;
+}
+
+#exponentes h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+}
+#actualidad {
+    padding: 60px 0;
+}
+
+#actualidad h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    max-height: 300px;
+    object-fit: cover;
+}
+#clasificaciones {
+    padding: 60px 0;
+}
+
+#clasificaciones h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.boxeador {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.boxeador img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.boxeador h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#formulario {
+    padding: 60px 0;
+}
+
+#formulario h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
